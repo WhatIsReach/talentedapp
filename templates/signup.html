@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TalentEd- Sign up with TalentEd</title>
+<link rel="stylesheet" type="text/css" href="../static/style2.css">
+<link rel="icon" href="../static/newestlogo.png">
+
+</head>
+<body>
+         <center><img src="../static/newestlogo.png" width=350 height=350></center>
+<div class="agile">
+<div class="signin-form profile">
+	<center><h3>Register</h3></center>
+	<div class="login-form"></center>
+<form action="../upload.html">
+	<center><input type="text" name="email" placeholder="E-mail" required=""></center>
+	<center><input type="text" name="name" placeholder="Username" required=""></center>
+<center><input type="password" id="passwordID" name="password" placeholder="Password" required=""></center>
+<center><input type="password" name="password" placeholder="Confirm Password" oninput="check(this);" required=""></center>
+	<center><a href="../upload.html"><input type="submit" value="REGISTER"></a></center>
+	<script language='javascript' type='text/javascript'>
+function check(input) {
+if (input.value != document.getElementById('passwordID').value) {
+input.setCustomValidity('Passwords must match.');
+} else {
+// input is valid -- reset the error message
+input.setCustomValidity('');
+}
+}
+</script>
+</form>
+</div>
+	<center><p>By clicking register, you agree to the terms of service</p></center>
+</div>
+</div>
+</div>
+	
+
+
+
+
+	
+
+  </body>
+</html>
