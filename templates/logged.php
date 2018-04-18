@@ -85,6 +85,6 @@
  <?php
 $email = $_POST['email'];
 echo "<p>Welcome $email</p>";
-  
+?>
 </body>
 </html>
