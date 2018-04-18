@@ -11,9 +11,9 @@ def signup():
 @app.route('/upload.html')
 def upload():
     return render_template('upload.html')
-@app.route('/logged.html')
+@app.route('/logged.php')
 def logged():
-    return render_template('logged.html')
+    return render_template('logged.php')
 
 
 if __name__ == '__main__':
